@@ -1,0 +1,52 @@
+/* pages/index/index.wxml.wxss */
+.box {
+  padding: 10px;
+}
+.myidea,.item {
+  /* border: 1px solid #eeeeee; */
+  height: 48px;
+  line-height: 48px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.myidea {
+  margin-bottom: 10px;
+}
+.myidea image {
+  display:block;
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  float: left;
+}
+.myidea input,.item input {
+  display: block;
+  margin-left: 50px;
+   height: 48px;
+  line-height: 48px;
+  
+}
+.suc {
+  text-decoration: line-through;
+}
+.item{
+  padding-left: 10px;
+  box-sizing: border-box
+}
+.item radio {
+  float: left;
+  z-index: 5;
+}
+.ope {
+  width: 100%;
+  display: flex;
+  flex: 3;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.ope text {
+  display: inline-flex;
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+}

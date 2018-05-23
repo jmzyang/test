@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml.wxml-->
+<view class='box'>
+  <view class='myidea'><image src='../../assets/plus.png'></image><input placeholder="anything here..." bindconfirm='add' value='{{input}}'></input></view>
+  <view class='item' data-id="{{item.id}}" catchtap='check' wx:for="{{comple}}" wx:key="id" ><radio checked='{{ item.checked ? true:false }}' ></radio><input class="{{item.suc?'item.suc':''}}" disabled='1' value='{{item.context}}'  ></input></view>
+  <view class='ope'><text>toggol all</text><text>1item left</text><text bindtap='deleteAll'>clear completed</text></view>
+</view>
